@@ -1,0 +1,80 @@
+.parallax-container {
+  height: calc(100vh);
+}
+.hero-content {
+  height: inherit;
+}
+.nav-logo {
+  padding: 0 0.75rem;
+}
+.hero-card {
+  opacity: 0.85;
+}
+.hero-card .card-content {
+  opacity: 1;
+}
+ul.dropdown-content {
+  max-height: 300px !important;
+}
+body {
+  background: url('../images/tile.jpg') top left repeat;
+  font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+}
+.container h4 {
+  margin: 20px 0 40px;
+}
+#testimonial-section {
+  background: #fff;
+  padding: 20px 0 60px;
+}
+#testimonial-section .row {
+  margin: 20px 0 60px;
+}
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  font-style: italic;
+}
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+  font-style: italic;
+}
+#feature-section {
+  /* background: #fff; */
+  padding: 60px 0 60px;
+}
+#hero-section .row {
+  margin-bottom: 0px;
+}
+
+/* For 641 Resolution and above */
+@media only screen and (min-width: 729px) {
+  #hero-text-div {
+    margin-top: calc(100vh / 3);
+  }
+  #hero-form-div {
+    margin-top: calc(100vh / 7);
+  }
+}
+/* For 640 Resolution and below */
+@media only screen and (max-width: 728px) {
+  #hero-text-div {
+    margin-top: 30px;
+  }
+  #hero-form-div {
+    margin-top: 30px;
+  }
+}
+.custom-footer-icon {
+  margin-right: 15px;
+  vertical-align: bottom;
+}
+.div-contact {
+  margin-bottom: 15px;
+}
+.social-icon {
+  margin-right: 10px;
+}

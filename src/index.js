@@ -1,8 +1,14 @@
+/**
+ * A simple single page web
+ *
+ * @author wilson(vjwilsonl@gmail.com)
+ */
+import 'materialize-css/dist/css/materialize.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+import './assets/css/styles.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
