@@ -25,7 +25,7 @@ class Feature extends Component {
     let cardHtml = [];
     for (var i = 0; i < rand; i++) {
       cardHtml.push(
-        <div className="col s6 m4" key={i}>
+        <div className="col s12 m4" key={i}>
           <div className="card">
             <div className="card-image waves-effect waves-block waves-light">
               <img
